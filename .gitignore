@@ -1,0 +1,4 @@
+node_modules/
+.env
+rejected_rows.log
+data/football_matches_corrupted.csv

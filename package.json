@@ -1,0 +1,17 @@
+{
+  "name": "lab-corte-2-bd-sql",
+  "version": "1.0.0",
+  "description": "Carga del dataset football_matches.csv en MySQL y consultas de analisis",
+  "main": "src/index.js",
+  "scripts": {
+    "load": "node src/index.js",
+    "verify": "node src/verification/verifyLoad.js",
+    "corrupt:csv": "node scripts/createCorruptedCsv.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.3"
+  }
+}
